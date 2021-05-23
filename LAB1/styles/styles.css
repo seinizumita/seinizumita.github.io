@@ -6,9 +6,18 @@ html {
   background-color: white;
 }
  
+head{	
+  font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #0c10fc; 
+
+}
+
 body {
-  background-color: rgb(12, 44, 252);
-  width: 600px;
+  background-color: rgb(239, 255, 127);
+  width: 1080px;
   border: 2px solid black;
   padding: 0px 20px 20px 20px;
   
@@ -19,8 +28,7 @@ h1 {
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
-	color: #4c0cfc;  /* Fuchsia */
-	text-shadow: 3px 3px 1px black;
+	color: #0c1cfc;  /* Fuchsia */
 }
 
 img {
@@ -51,7 +59,7 @@ table {
   display: block;
   width: 100%;
   border: none;
-  background-color: #ffff66;  /* yellow */
+  background-color: #66baff;  /* yellow */
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
