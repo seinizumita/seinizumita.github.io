@@ -9,21 +9,22 @@
 
 <!-- Tab links, each one with an onclick event associated with it -->
 <div class="tab">
-  <button class="tablinks" onclick="openInfo(event, 'Client Data')">Client Data</button>
+  <button class="tablinks" onclick="openInfo(event, 'ClientData')">Client Data</button>
   <button class="tablinks" onclick="openInfo(event, 'Products')">Products</button>
   <button class="tablinks" onclick="openInfo(event, 'Cart')">Cart</button>
 </div>
 
 <!-- Tab content -->
-<div id="Client" class="tabcontent">
+<div id="ClientData" class="tabcontent">
   <h3>Client Information</h3>
   <p>Tell us a bit about you.</p>
 	Choose a Category:
 	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
-	<option value=""></option>
-	<option value="LactoseFree">LactoseFree</option>
-    <option value="NutFree">NutFree</option>
-    <option value="None">None</option>
+        <option value="None">None</option>
+        <option value="LactoseFree">Lactose Free</option>
+        <option value="NutFree">Nut Free</option>
+        <br>
+        <input type="checkbox" id="dietSelect" name="dietSelect" value="Organic">Organic</input>
 	</select>
 </div>
 
@@ -45,6 +46,9 @@
 
 <script src="scripts/groceries.js"></script>
 <script src="scripts/main.js"></script>
+
+<p id="signature">Site created by Sizum</p><br>
+<p id="signature">P.S. I wanted to get the price beside the product but I couldn't figure it out :(</p>		
 
 </body>
 </html>
