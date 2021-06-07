@@ -1,0 +1,212 @@
+/* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+#Welcome {
+  display: block;
+  text-align:center;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  margin:auto;
+  min-width: 1320px;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-top: 15px
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  margin:auto;
+  min-width: 1320px;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-top: 15px
+}
+
+label {
+  display:inline-block
+}
+
+
+img {
+  float:left;
+  margin-right: 15px;
+}
+
+.restriction {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+/*Signature */
+.signature {
+  position:fixed;
+  margin-top:auto;
+  text-align: right;
+  right: 8px;
+  bottom: 0;
+  font-size: 10px;
+}
+
+.display-box {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin:auto;
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+body {
+  margin: auto;
+  background-color: rgb(236, 146, 236);
+  font-family:'Helvetica', 'Arial' sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* buttons taken from here : https://codepen.io/sebj54/pen/oxluI */
+#addCart {
+  margin-bottom: 15px;
+  height: 30px;
+  width: 100px;
+  max-width: 100%;
+  border-radius: 5px;
+  border:none;
+  font-family: 'Helvetica', 'Arial' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:white;
+  background-color: rgb(9, 57, 160);
+}
+
+#nextPage {
+  margin-bottom: 15px;
+  height: 30px;
+  width: 125px;
+  max-width: 100%;
+  border-radius: 5px;
+  border:none;
+  font-family: 'Helvetica', 'Arial' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:white;
+  background-color: rgb(9, 57, 160);
+  float: right;
+}
+
+#prevPage {
+  height: 30px;
+  width: 75px;
+  max-width: 100%;
+  border-radius: 5px;
+  border:none;
+  font-family: 'Helvetica', 'Arial' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:white;
+  background-color: grey;
+  float: left;
+}
+
+#startBtn {
+  height: 30px;
+  width: 75px;
+  max-width: 100%;
+  border-radius: 5px;
+  border:none;
+  font-family: 'Helvetica', 'Arial' sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:white;
+  background-color: rgb(9, 57, 160);
+  position: relative;
+}
+
+.productDiv {
+  font-family: 'Helvetica', 'Arial' sans-serif;
+  margin-left: 195px;
+  height: 195px;
+}
+
+.productName {
+  vertical-align: top;
+  font-weight: bold;
+  font-size:1.5rem;
+  margin-top:15px;
+}
+
+.productPrice {
+  vertical-align: top;
+  font-weight: bold;
+  font-size:1rem;
+  margin-top:15px;
+  margin-bottom: 30px;
+}
+
+/* Accordion and panels taken from https://www.w3schools.com/howto/howto_js_accordion.asp */
+.accordion {
+  background-color: rgb(9, 57, 160);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+#displayProduct {
+  margin-bottom: 15px;
+}
