@@ -118,7 +118,7 @@ class App extends Component {
 		},
 		lfg: [
 			{
-				name: 'Ara',
+				name: 'Sein',
 				experience: 'Beginner',
 				about: "I'm looking for a doubles partner to learn with :)",
 			},
@@ -126,7 +126,7 @@ class App extends Component {
 
 		lfm: [
 			{
-				names: 'Ara, Catherine',
+				names: 'Sein, Joey',
 				lookingFor: '2',
 				about: "We're a doubles team looking for another team to play with",
 			},
