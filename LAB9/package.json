@@ -1,0 +1,45 @@
+{
+  "name": "seg3125-lab8-9",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "i18next": "^19.6.2",
+    "i18next-browser-languagedetector": "^5.0.0",
+    "jquery": "^3.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.0",
+    "react-materialize": "^3.9.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.1.0",
+    "react-step-progress": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

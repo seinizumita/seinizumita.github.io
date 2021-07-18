@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.left-col {
+	padding-right: 25px !important;
+}
+
+.right-col {
+	padding-left: 25px !important;
+}
+
+.py-0 {
+	padding-top: 0 !important;
+}
+
+.noDisplay {
+	display: none !important;
+}
+
+.input-field {
+	width: 100%;
+}
+
+.extra-large-icon {
+	font-size: 25rem;
+}
+
+.max-height {
+	height: 100%;
+}
+
+.mt-150 {
+	margin-top: 150px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.customDatePickerWidth,
+.customDatePickerWidth > div.react-datepicker-wrapper,
+.customDatePickerWidth
+	> div
+	> div.react-datepicker__input-container
+	.customDatePickerWidth
+	> div
+	> div.react-datepicker__input-container
+	input {
+	width: 100%;
+}
+
+.customDatePickerWidth > div.react-datepicker-wrapper {
+	padding: 0 0.75rem;
+}
+
+.placeholder {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.reg-centering {
+	margin-left: 37.5% !important;
+}
+
+.mb-1 {
+	margin-bottom: 15px !important;
+}
+
+.rounded-corner {
+	border-radius: 10px;
+}
+
+.thin-font {
+	font-weight: 300;
+}
+
+.customTable {
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	height: 400px;
+	overflow-y: scroll;
+	display: block;
+}
+
+.limit-height {
+	height: 500px;
+}
+
+.limitPhoto {
+	max-height: 300px;
+}
+
+.full-height {
+	height: 100%;
+	width: 100%;
+}
+
+.center-button {
+	margin-left: 33%;
+}
+
+.headerImg {
+	height: 420px;
+}
+
+.select-container > .input-field > .select-wrapper {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10% !important
+}

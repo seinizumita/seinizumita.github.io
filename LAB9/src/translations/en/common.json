@@ -1,0 +1,59 @@
+{ 
+   "Courses": "Courses",
+    "Court": "Court",
+    "Beginner Courses": "Beginner Courses",
+    "Intermediate Courses": "Intermediate Courses",
+    "Advanced Courses": "Advanced Courses",
+    "Court Availabilities": "Court Availabilities",
+    "Book a court!": "Book a court!",
+    "Sunday": "Sunday",
+    "Monday": "Monday",
+    "Tuesday": "Tuesday",
+    "Wednesday": "Wednesday",
+    "Thursday": "Thursday",
+    "Friday": "Friday",
+    "Saturday": "Saturday",
+    "January": "January",
+    "Febuary": "Febuary",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December",
+    "Booked": "Booked",
+    "Available": "Available",
+    "Instructor": "Insctructor:",
+    "Days": "Days:",
+    "Course1Desc":
+        "New to tennis? No idea where to start? Tennis 101 is here to help you learn the basics and begin your tennis journey. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Course2Desc":
+        "Learn to serve like a pro in our serving for beginners course. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Course3Desc":
+        "Can't rally past 5 hits? No problem! Our instructors are here to help you get that ball in everytime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Course4Desc":
+        "Learn tennis strategies to allow you to get the edge on your opponent. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Course5Desc":
+        "Got the basics down? Join others in learning a bit more about the great sport of tennis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Course6Desc":
+        "Ready for 2 player mode? Learn strategies when playing with a partner. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Course7Desc":
+        "Join advanced players in taking your tennis to the next level! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est aspernatur illo consectetur laborum impedit nam libero quis, cumque numquam excepturi fugiat architecto molestiae, sequi illum mollitia iusto quia nihil.",
+    "Time": "Time:",
+    "Activities": "Activities",
+    "Tennis 101": "Tennis 101",
+    "Serving for beginners": "Serving for beginners",
+    "Learn to Rally!": "Learn to Rally!",
+    "Tennis Strategies": "Tennis Strategies",
+    "Intermediate Group Lessons": "Intermediate Group Lessons",
+    "Doubles Strategies": "Doubles Strategies",
+    "Advanced Group Lessons": "Advanced Group Lessons",
+    "Join a course" : "Join a course!",
+    "Find Others": "Find Others",
+    "About Us": "About Us"
+    
+}
